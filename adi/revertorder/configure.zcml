@@ -17,7 +17,7 @@
   <!-- -*- extra stuff goes here -*- -->
      <subscriber
          for="Products.CMFCore.interfaces.IContentish
-              Products.Archetypes.interfaces.IObjectInitializedEvent"
+              zope.lifecycleevent.interfaces.IObjectAddedEvent"
          handler=".subscriber.revertOrder"
          />
   

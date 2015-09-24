@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.2 (150924)
+-------------------
+
+- Also regard Dexterity-based contenttypes.
+
+
 1.1 (150924)
 -------------------
 
