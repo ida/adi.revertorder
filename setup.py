@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0'
+version = '1.1'
 
 setup(name='adi.revertorder',
       version=version,
@@ -15,8 +15,8 @@ setup(name='adi.revertorder',
         "Programming Language :: Python",
         ],
       keywords='',
-      author='',
-      author_email='',
+      author='Ida Ebkes',
+      author_email='contact@ida-ebkes.eu',
       url='https://github.com/ida/adi.revertorder/',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
