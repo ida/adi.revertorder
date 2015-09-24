@@ -16,7 +16,7 @@
       />
   <!-- -*- extra stuff goes here -*- -->
      <subscriber
-         for="*
+         for="Products.CMFCore.interfaces.IContentish
               Products.Archetypes.interfaces.IObjectInitializedEvent"
          handler=".subscriber.revertOrder"
          />
