@@ -5,7 +5,7 @@ version = '1.0'
 
 setup(name='adi.revertorder',
       version=version,
-      description="Prepend any newly created Archetype-based contentitem to its siblings, instead of appending it.",
+      description="A Plone addon, to prepend any newly created content-item to its siblings, instead of appending it.",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
